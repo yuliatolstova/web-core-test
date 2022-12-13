@@ -39,9 +39,6 @@
   }
 }
 
-.swiper-slide {
-  flex-shrink: 1;
-}
 .brands-swiper__wrapper,
 .tech-swiper__wrapper,
 .price-swiper__wrapper {
@@ -201,6 +198,10 @@
     width: 750px !important;
     margin: 0 0 24px 0;
   }
+  
+.price-swiper__wrapper .swiper-slide {
+  flex-shrink: 1;
+}
   .price-swiper__wrapper {
     display: flex;
     flex-direction: row;
